@@ -32,7 +32,7 @@
 .infoLeftSide{
   display: flex;
   flex-direction: column;
-  padding-top: 10rem;
+  padding-top: 13rem;
   padding-right: 5rem;
 }
 
@@ -41,7 +41,16 @@
   font-weight: 400;
 }
 
-.rightSide{}
+.japaneseText{
+  color: #303030;
+  font-weight: 600;
+  font-size: 100px;
+  opacity: 0.2;
+  position: absolute;
+  z-index: 999;
+  top: 20%;
+  left: 10%;
+}
 
 .title{
   font-size: 40px;
@@ -51,7 +60,7 @@
 }
 
 .infoPokemon{
-  border-left: 3px solid #ECEDF7;
+  border-left: 3px solid rgb(237, 238, 247, 0.3);
   border-radius: 1px;
   padding-left: 20px;
   display: flex;
@@ -68,4 +77,25 @@
   width: max-content;
   color: #303030;
   font-weight: bold;
+}
+
+.searchButton {
+  padding: 10px;
+  background-color: #ECEDF7;
+  color: black;
+  opacity: 0.7;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.searchButtonClick {
+  padding: 10px;
+  color: black;
+  opacity: 0.7;
+  background-color: #ECEDF7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
 }
